@@ -9,7 +9,7 @@ public class App {
     public App() {
         UserService userService = new UserService();
 
-        String email = "Hallo Bochum!";
+        String email = "test@test.de";
         String mailOk = userService.validateEMail(email);
 
         if(mailOk.equals("")) {
