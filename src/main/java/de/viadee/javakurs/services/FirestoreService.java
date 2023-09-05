@@ -76,11 +76,7 @@ public class FirestoreService {
 
     public Observable<String> getGamestates() {
         BehaviorSubject<String> result = BehaviorSubject.create();
-        firestore.collection("gamestate").document("state").addSnapshotListener(
-                (d, e) -> {
-                    result.onNext((String) d.get("data"));
-                }
-        );
+        // TODO: Daten aus dem Firestore laden
         return result.filter((s) -> s.length() > 0);
     }
 
