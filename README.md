@@ -4,6 +4,7 @@ die bereits erste Erfahrung in der Programmierung haben,
 aber noch keine Erfahrung in Full-Stack-Software Development.
 
 Um die Übungen zu starten wird folgende Software benötigt:
+* Git: https://git-scm.com/
 * Java 25 : https://adoptium.net/temurin/releases?version=25&os=any&arch=any
 * Maven : https://maven.apache.org/install.html
 * Node.js : https://nodejs.org/en/download
