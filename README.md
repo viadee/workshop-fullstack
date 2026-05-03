@@ -1,10 +1,12 @@
-# Java-Kurs für Einsteiger
-Dieser Java-Kurs richtet sich an Informatik-Studierende,
+# Workshop ​Full Stack Software Development
+Dieser Kurs richtet sich an Informatik-Studierende,
 die bereits erste Erfahrung in der Programmierung haben,
-aber noch keine Erfahrung in Java.
+aber noch keine Erfahrung in Full-Stack-Software Development.
 
-Um das Beispiel zu starten wird Java
-(https://www.oracle.com/de/java/technologies/downloads/#java17) 
-und Gradle (https://gradle.org/install/) benötigt.
-
+Um die Übungen zu starten wird folgende Software benötigt:
+* Java 25 : https://adoptium.net/temurin/releases?version=25&os=any&arch=any
+* Maven : https://maven.apache.org/install.html
+* Node.js : https://nodejs.org/en/download
+* Visual Studio Code: https://code.visualstudio.com/
+* Alternativ IntelliJ IDEA Ultimate (Studierenden-Lizenz): https://www.jetbrains.com/academy/student-pack/#students
 
