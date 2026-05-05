@@ -3,6 +3,3 @@
 .idea
 
 # Ignore Gradle build output directory
-build
-/src/main/resources/*.json
-*.json
