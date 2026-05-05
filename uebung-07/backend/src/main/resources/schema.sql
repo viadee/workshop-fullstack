@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS TODO (id VARCHAR(50) PRIMARY KEY, title VARCHAR(100), description VARCHAR(2000), unread BOOLEAN, completed BOOLEAN, due_date DATE);
