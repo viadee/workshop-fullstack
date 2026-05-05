@@ -1,0 +1,12 @@
+import styles from './viadee-icon.module.css';
+
+export default function ViadeeIcon() {
+    return (
+        <span className={styles.icon}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100%" height="100%" viewBox="0 0 150 150">
+                <path fill="currentColor" d="M62.637 109.495 44.345 91.482H13.84v16.002c0 2.217 1.817 4.005 4.071 4.005h22.363l22.363 22.001L99.22 97.498h32.549c2.236 0 4.07-1.805 4.07-4.005V77.49H95.168l-32.531 32.005ZM62.494 43.49l26.346-27H17.898c-2.247 0-4.058 1.855-4.058 4.155V35.18H54.38l8.115 8.31Z"></path>
+                <path fill="currentColor" d="m88.057 39.49-25.42 25.518-11.182-11.224H13.84V74.18h33.545l15.252 15.31 29.508-29.62 43.695.034V39.49H88.057Z"></path>
+            </svg>
+        </span>
+    )
+}

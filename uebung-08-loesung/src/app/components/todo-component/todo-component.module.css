@@ -1,0 +1,15 @@
+.completed {
+    color: var(--viadee-text-color-muted);
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.read {
+    font-weight: normal;
+}
+
+.todoListEntry {
+    border-bottom: 1px solid var(--viadee-color-border);
+}

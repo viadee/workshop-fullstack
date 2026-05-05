@@ -1,0 +1,37 @@
+.todoListCard {
+  border-radius: 0.5rem;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.todoListRow {
+  height: 50px;
+  padding:0 20px;
+  line-height:50px;
+}
+
+.todoListHeader {
+  background: var(--viadee-primary-color);
+  color: var(--viadee-text-color);
+  font-weight:bold;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  text-align: center;
+}
+
+.todoListFooter {
+  transition: all 0.2s cubic-bezier(.7,.2,.17,1);
+  background-color: var(--viadee-primary-color);
+  color: var(--viadee-text-color);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.todoList {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+}

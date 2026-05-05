@@ -1,0 +1,1 @@
+MERGE INTO TODO (id, title, description, unread, completed, due_date) KEY(id) VALUES ('4', 'Post implementieren', 'Post implementieren, damit auch neue Werte in der Datenbank angelegt werden können.', false, true, CURRENT_DATE);

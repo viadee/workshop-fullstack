@@ -1,0 +1,1 @@
+MERGE INTO TODO (id, title, description, unread, completed, due_date) KEY(id) VALUES ('3', 'Datenbank anbinden', 'In der Datei TodoService muss das statische Array durch einen Datenbankzugriff ersetzt werden.', true, false, CURRENT_DATE);
